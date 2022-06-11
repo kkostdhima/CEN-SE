@@ -8,10 +8,10 @@ It should be the Quality System that ensures everyone in your company sees how y
 
 Our purpose is to build a software who keeps track of this particular business's activity.
 The problems that this management system will solve are: 
-● The management of employees in a more accurate and easy way.
-● The management of the warehouse and inventory by the service staff. 
-● The possibility of managing all the systems of the factory by the managers. 
-● A user-friendly app that allows anyone to communicate and use it without difficulties.
+* The management of employees in a more accurate and easy way.
+* The management of the warehouse and inventory by the service staff. 
+* The possibility of managing all the systems of the factory by the managers. 
+* A user-friendly app that allows anyone to communicate and use it without difficulties.
 
 The purpose of our application is to facilitate the way a business works in Albania. Although we 
 are in 2022, many records are being stored manually on paper, which makes the data unsafe, 
