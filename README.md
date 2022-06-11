@@ -26,6 +26,6 @@ and the admin at any time.
 # Technology Used
 For this project, the technologies that will be used are:
 
-PHP (Backend Language)
-HTML, CSS, Javascript, Bootstrap (Front-End Language)
-MySQL (SQL langauge for Database)
+1. PHP (Backend Language)
+2. HTML, CSS, Javascript, Bootstrap (Front-End Language)
+3. MySQL (SQL langauge for Database)
