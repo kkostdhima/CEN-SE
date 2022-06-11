@@ -22,3 +22,10 @@ apps for performing different tasks because it is really confusing and requires 
 effort, we built that app to make everything easier
 The system will be running 24/7 since the material should be accessable for the employees 
 and the admin at any time.
+
+# Technology Used
+For this project, the technologies that will be used are:
+
+PHP (Backend Language)
+HTML, CSS, Javascript, Bootstrap (Front-End Language)
+MySQL (SQL langauge for Database)
