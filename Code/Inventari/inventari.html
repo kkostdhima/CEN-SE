@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport"
+	content="width=device-width,
+	initial-scale=1.0">
+	<title>Inventari</title>
+	<link rel="stylesheet" href="inventari.css" />
+
+</head>
+
+<body>
+
+ 
+<div class="main">
+
+       <nav>
+	    <div class="logo">
+	        <img  src="img/solidgroup.jpg"/>
+	    </div>
+		<div class="nav-links">
+		   <ul>
+		      <li><a href="krijoprodukt.html">Krijo nje produkt</a></li>
+			  <li><a href="ndryshoprodukt.html">Ndrysho nje produkt</a></li>
+	          <li><a href="Raportshitje.html">Krijo nje raport shitje</a></li>
+			  </ul> </div>
+    </nav>
+    
+<div class="information">
+
+    
+<p class="mobile">
+Me inventar, në kuptimin fizik të tyre, kuptohen zakonisht rezervat me mallra dhe materiale të ndryshme apo produkte që zotëron një njësi ekonomike, të cilat eventualisht mund t'u shiten konsumatorëve në njërën apo tjetren formë ose mund të përdoren eventualisht nga vetë njesia. Pra, inventari shpreh mallrat që janë në gjendje për t'u shitur apo bashkësinë e produkteve te gatshme për shitje.</p>
+
+   <div id="circle">
+	  
+	  <div class="feature one">  
+		   <div> <h1>INFO</h1>
+       <p>Mbi faqen e inventarit <br> te Solid Group SH.P.K.</p> </div></div>
+	  
+	  <div class="feature two">  
+		   <div> <h1>Krijo</h1>
+       <p>Krijo produkte te ndryshme duke specifikuar<br>  te dhenat e detajuara te produkteve.</p> </div></div>
+     
+	 <div class="feature three">
+        		<div><h2> Ndrysho </h2>
+<p>Ndrysho sasine e produktit te <br>disponueshem midis nje raporti.</p></div></div>
+	 
+	 <div class="feature four"> 
+		<div><h3> Raporto </h3>
+<p>Raporto shitjen e nje produkti duke <br>specifikuar produktin sasine dhe cmimin.</p></div></div>
+
+		
+		</div>
+	</div>
+ <div class="controls">
+	 <img src="img/arrow.png" id="upBtn">
+	 <h3> Vecorite </h3>
+	  <img src="img/arrow.png" id="downBtn">
+	 </div>
+	
+</div>
+
+
+<div class="homepage"> 
+
+    <img  src="img/inventory.png" class="back-image" />
+	
+    <div class="content">
+	<h4> Solid Group</h4>
+	<a href="../HomePage/Homepage.html">Kliko per tu kthyer ne faqen kryesore</a>
+	
+	</div>
+   
+   
+</div>
+
+</div>
+
+
+
+</body>
+
+<script> 
+      var circle = document.getElementById("circle");
+	  var upBtn = document.getElementById("upBtn");
+	  var downBtn = document.getElementById("downBtn");
+	  
+	  var rotateValue = circle.style.transform;
+	  var rotateSum;
+	  
+	  
+	  upBtn.onclick = function ()
+	  {
+	  rotateSum = rotateValue + "rotate(-90deg)";
+	  circle.style.transform = rotateSum;
+	  rotateValue = rotateSum;
+	  }
+	  
+	  downBtn.onclick = function ()
+	  {
+	  rotateSum = rotateValue + "rotate(90deg)";
+	  circle.style.transform = rotateSum;
+	  rotateValue = rotateSum;
+	  }
+	  
+</script>
+</html>
