@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!--<title> Login and Registration Form  </title>-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLID GROUP</title>
+   </head>
+<body>
+  <div class="container">
+    <input type="checkbox" id="flip">
+    <div class="cover">
+      <div class="front">
+        <img src="images/frontImg.jpg" alt="">
+        <div class="text">
+          <span class="text-1">SOLID GROUP<br> SH.P.K</span>
+          <span class="text-2">Ne mundemi sebashku!</span>
+        </div>
+      </div>
+      <div class="back">
+        <img class="backImg" src="images/backImg.jpg" alt="">
+        <div class="text">
+          <span class="text-1">Complete miles of journey <br> with one step</span>
+          <span class="text-2">Let's get started</span>
+        </div>
+      </div>
+    </div>
+    <div class="forms">
+        <div class="form-content">
+          <div class="login-form">
+            <div class="title">Miresevini!</div>
+          <form action="#">
+            <div class="input-boxes">
+              <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input type="text" placeholder="Vendosni Email" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Vendosni Fjalekalimin" required>
+              </div>
+              <div class="text"><a href="#">Harruat Fjalekalimin?</a></div>
+              <div class="button input-box">
+                <input type="submit" value="OK">
+              </div>
+              <div class="text sign-up-text">Nuk keni llogari? <label for="flip">Regjistrohuni tani</label></div>
+              <div class="text sign-up-text"><a href="HomePage/Homepage.html">Hyni si vizitor</a></div>
+            </div>
+        </form>
+      </div>
+        <div class="signup-form">
+          <div class="title">Krijoni llogarine tuaj...</div>
+        <form action="#">
+            <div class="input-boxes">
+              <div class="input-box">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Emer/Mbiemer" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Adresa e banimit" required>
+              </div>
+            </div>
+            <div class="input-box">
+              <i class="fas fa-envelope"></i>
+              <input type="text" placeholder="Vendosni email tuaj" required>
+            </div>
+              <div class="input-box">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Numer kontakti" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Pozicioni i punes" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Pagesa juaj mujore" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Fjalekalimi" required>
+              </div>
+              <div class="button input-box">
+                <input type="submit" value="Regjistrohu">
+              </div>
+              <div class="text sign-up-text">Keni Llogari? <label for="flip">Hyr tani.</label></div>
+            </div>
+      </form>
+    </div>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
